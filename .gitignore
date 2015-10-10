@@ -58,3 +58,4 @@ target/
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml/{{/settings/local.py
+/lunch/settings/local.py
