@@ -31,4 +31,5 @@ Vagrant::Config.run do |config|
 
 	# Enable provisioning with a shell script.
 	config.vm.provision :shell, :path => "etc/install/install.sh", :args => "lunch"
+	config.vm.provision :shell, :path => "etc/install/startup.sh", :run => "always"
 end

@@ -36,6 +36,8 @@ wget https://bitbucket.org/pypa/setuptools/raw/bootstrap/ez_setup.py -O - | pyth
 apt-get install -y libjpeg-dev libtiff-dev zlib1g-dev libfreetype6-dev liblcms2-dev
 # Git (we'd rather avoid people keeping credentials for git commits in the repo, but sometimes we need it for pip requirements that aren't in PyPI)
 apt-get install -y git
+# Added for tests - CB
+apt-get install -y xvfb firefox
 
 # Postgresql
 if ! command -v psql; then
